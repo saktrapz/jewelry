@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.head{
+    background-color: #fff;
+}
+.row-head{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: #F391BA;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login a:hover{
+    border-bottom: solid #F391BA 2px;
+}
+.active-border{
+    border-bottom: solid #F391BA 2px;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.register a:hover{
+    border-bottom: solid #F391BA 2px;
+}
+
+.navs-bg{
+    background-color: #F391BA;
+    
+}
+.navs{
+    background-color: #F391BA;
+}
+.navs-link{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navs-link li a{
+    text-decoration: none;
+    padding: 30px 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+.navs-link li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.navs-link li .active{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+/* body */
+.body-content{
+    height: fit-content;
+    position: relative;
+    top: -15px;
+    padding: 25px;
+}
+.body-content h2{
+    font-weight: bold;
+    text-align: center;
+}
+.body-content .content{
+    height: fit-content;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.body-content .content h5{
+    font-weight: bold;    
+}
+.body-content .content p{
+    margin-top: 25px;
+}
+.body-content .feedback-form{
+    margin-top: 30px;
+    height: fit-content;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.body-content .feedback-form input{
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.body-content .feedback-form textarea{
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.body-content .feedback-form .feedback-btn{
+    padding: 10px;
+    width: 15%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F391BA;
+}
+.body-content .feedback-form .feedback-btn:hover{
+    background-color: #a55073;
+}
+/* Login Form */
+.main-login-form{
+    height: max-content;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px grey;
+    position: absolute;
+    z-index: 10;
+    right: 150px;
+    padding: 20px;
+    display: none;
+}
+
+.main-login-form .input-box{
+    margin-top: 10px;
+}
+.main-login-form .input-box span{   
+    font-weight: bold;
+}
+.main-login-form .input-box input{
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.main-login-form .forget-pw{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.main-login-form .forget-pw:hover{
+    color: red;
+}
+.main-login-form .signup-acc{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* register form */
+.main-register-form{
+    height: max-content;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px grey;
+    position: absolute;
+    z-index: 10;
+    right: 150px;
+    padding: 20px;
+    display: none;
+}
+.main-register-form .input-box{
+    margin-top: 10px;
+}
+.main-register-form .input-box span{   
+    font-weight: bold;
+}
+.main-register-form .input-box input{
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.main-register-form .already-acc{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.main-register-form .already-acc:hover{
+    color: red;
+}
+.main-register-form .signup-acc{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* //--footer--// */
+.footer{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.footer .block{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer .block h4{
+    font-weight: bold;
+}
+.footer .block .infor span{
+    margin-left: 10px;
+}
+.footer .block a{
+    margin-top: 15px;
+    color: black;
+}
+.footer .block a:hover{
+    text-decoration: none;
+    color: #F391BA;
+}
+.footer .block p{
+    margin-top: -15px;
+    color: black;
+}
