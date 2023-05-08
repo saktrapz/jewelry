@@ -355,7 +355,8 @@ body{
 }
 /* //--footer--// */
 .footer{
-    height: 250px;
+    /* height: 250px; */
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0;
@@ -374,14 +375,15 @@ body{
     margin-left: 10px;
 }
 .footer .block a{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+
     color: black;
 }
 .footer .block a:hover{
     text-decoration: none;
-    color: #F391BA;
+    color: #ffffff;
 }
 .footer .block p{
-    margin-top: -15px;
+    /* margin-top: -15px; */
     color: black;
 }
